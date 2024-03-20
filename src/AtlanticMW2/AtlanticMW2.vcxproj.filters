@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="prx.cpp" />
+    <ClCompile Include="Bots_mp.cpp">
+      <Filter>Functions\Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Functions\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScriptFunctions.cpp">
+      <Filter>Functions\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="handleFunctions.cpp">
+      <Filter>Functions\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="cstring.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="stdio.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="g_hudelem.cpp">
+      <Filter>Menu\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="q_math.cpp">
+      <Filter>Utilities\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Utilities\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Utilities\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Utilities\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle.cpp">
+      <Filter>Utilities\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Sockets.cpp">
+      <Filter>Utilities\System</Filter>
+    </ClCompile>
+    <ClCompile Include="g_scr_mp.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="pMenu.cpp">
+      <Filter>Menu\Pre-Game\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="pFunctions.cpp">
+      <Filter>Menu\Pre-Game\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Menu\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu\Main Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{3f13f84b-ab7e-4a08-84ce-9e872654b191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions\Bots">
+      <UniqueIdentifier>{435809de-9a7e-421c-9bf0-4ea1b190e8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions\Custom">
+      <UniqueIdentifier>{e972c4d3-cc7e-40e8-9691-8a717f299c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{ce38463f-ce17-4940-9c5e-1e4d21474b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{e7d8282c-4826-482f-9366-bd26689b4b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\HUD">
+      <UniqueIdentifier>{2cb3234a-d1f8-45b2-96c9-641f95a5657f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Pre-Game">
+      <UniqueIdentifier>{3d4cf251-ee09-4b69-8549-3b0fbf4f3171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{361870ad-d92a-46e3-aee7-0aca40540ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Fields">
+      <UniqueIdentifier>{cd7d99bd-c4aa-42f0-9ad4-25ae27185725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Notify">
+      <UniqueIdentifier>{7085ec73-128e-467c-8cc9-213e22671afc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{5f78b8fc-2bf0-407b-8886-f6747eaaded1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{1c9ad4f7-ce1e-4752-9f79-56c7dde7f803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Classes">
+      <UniqueIdentifier>{8d2cd749-06e7-4581-9cbc-86a90badd96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Math">
+      <UniqueIdentifier>{1a3028ce-89f8-41fc-b724-3e47c89aa631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\System">
+      <UniqueIdentifier>{e3db2c8c-c0ab-4d7f-b88b-139bdfe59794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Threading">
+      <UniqueIdentifier>{f6f983dc-e5c5-49f5-970f-490895ea19d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Pre-Game\Menu">
+      <UniqueIdentifier>{8468f6b3-110b-40d0-95ca-3ea5b751dbd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Pre-Game\Functions">
+      <UniqueIdentifier>{92fec55a-cc2e-44e6-bd14-3dafd0a6e0b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Keyboard">
+      <UniqueIdentifier>{c2500a66-ee20-4240-a236-576d38608f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Main Menu">
+      <UniqueIdentifier>{50367949-cead-4ad7-98ab-d313382ce748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bots_mp.h">
+      <Filter>Functions\Bots</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Functions\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScriptFunctions.h">
+      <Filter>Functions\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="handleFunctions.h">
+      <Filter>Functions\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="cstring.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="stdio.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="stdlib.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="g_hudelem.h">
+      <Filter>Menu\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="g_scr_mp.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="dvar.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="g_scr.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="q_math.h">
+      <Filter>Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Utilities\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Utilities\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Utilities\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle.h">
+      <Filter>Utilities\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads.h">
+      <Filter>Utilities\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldInvoker.h">
+      <Filter>Script\Fields</Filter>
+    </ClInclude>
+    <ClInclude Include="NotifyInvoker.h">
+      <Filter>Script\Notify</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="Sockets.h">
+      <Filter>Utilities\System</Filter>
+    </ClInclude>
+    <ClInclude Include="pMenu.h">
+      <Filter>Menu\Pre-Game\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="pFunctions.h">
+      <Filter>Menu\Pre-Game\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Menu\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu\Main Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
