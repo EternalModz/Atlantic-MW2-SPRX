@@ -7,6 +7,9 @@ I started working off of the Zircon SPRX project because I wanted to improve the
 # Compiling The SPRX
 Simply use the PS3 4.75 SDK along with an older version of Visual Studio to compile this project.
 
+# SPRX Showcase
+[![Watch the video](https://img.youtube.com/vi/ojIJMWzfxFg/maxresdefault.jpg)](https://www.youtube.com/watch?v=ojIJMWzfxFg&t=174s)
+
 # Credits
 - EternalModz - Atlantic Creator
 
