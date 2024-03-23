@@ -17,7 +17,7 @@ Simply use the PS3 4.75 SDK along with an older version of Visual Studio to comp
 
 - MayhemModding - Support
 
-- Trent - Support
+- Trent / LordVirus - Support
 
 - Roulette - Support
 
