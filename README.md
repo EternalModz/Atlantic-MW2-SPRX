@@ -46,6 +46,6 @@ Testers/Supporters:
 - aciph
 
 Teams:
-- CrEaTiOn Brotherhood
+- CrEaTiiOn Brotherhood
 
 - Zephyr League
